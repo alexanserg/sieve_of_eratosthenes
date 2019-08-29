@@ -1,5 +1,3 @@
-require ('pry')
-
 class Prime
  attr_accessor(:arr)
   def initialize(number)
@@ -18,4 +16,3 @@ class Prime
 
 prime = Prime.new(99)
 prime.sifting
-# prime.arr
